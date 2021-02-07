@@ -6,7 +6,7 @@ Use at your own peril!!! :)
 
 Seriously though, make sure you follow these guidelines:
 
-1. Set up the display as described in the Waveshare resources (see below)
+1. Set up the display as described in the Waveshare resources and use the test examples before installing my script (resource link below)
 2. Be sure to install all Python packages needed for the script to run
 3. Customize to your heart's content!
 
