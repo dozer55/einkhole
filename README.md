@@ -10,6 +10,10 @@ Seriously though, make sure you follow these guidelines:
 2. Be sure to install all Python packages needed for the script to run
 3. Customize to your heart's content!
 
+To get this to refresh, I set it up with a cronjob to run every 5 minutes, which looks like: */5 * * * *
+
+Need help with cronjobs? Check out https://crontab.guru
+
 # Waveshare Resources
 There are fantastic resources for this display here:
 

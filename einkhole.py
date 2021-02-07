@@ -32,6 +32,8 @@ import time
 from PIL import Image,ImageDraw,ImageFont
 import traceback
 
+logging.basicConfig(level=logging.DEBUG)
+
 # Now the fun begins! Let's display some stuff!!!
 try:
     # Open pihole json stats source and load into variables
@@ -42,6 +44,14 @@ try:
     ratioblocked = parsed_json['ads_percentage_today']
     status = parsed_json['status']
     
+    logging.info("Getting ready to refresh and load display")
+    logging.info("Providing the following info:")
+    logging.info("Ads Blocked: " + str(adsblocked))
+    logging.info("% Blocked: " + str(ratioblocked))
+    logging.info("Status: " + str(status))
+    logging.info("Thanks for using einkhole!!! :)")
+
+
     # Initialize e-ink display
     epd = epd2in13_V2.EPD()
     epd.init(epd.FULL_UPDATE)
