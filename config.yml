@@ -1,0 +1,7 @@
+# Configuration file for einkhole. Be sure to replace values where you see <>.
+
+paths:
+  # Source for pihole json stats
+  url: <Your pihole address>/admin/api.php # i.e. http://192.1.4.3/admin/api.php 
+  # Home directory of your einkhole installation
+  home: <Path to your einkhole installation> # i.e. /home/pi/einkhole
